@@ -1,0 +1,12 @@
+name: dna-dec
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch
+  - pytorch::pytorch-cuda
+  - pip
+  - pip:
+    - notebook
